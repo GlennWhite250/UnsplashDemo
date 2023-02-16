@@ -8,6 +8,6 @@ import com.example.unsplashdemo.utils.Constants.UNSPLASH_REMOTE_KEYS_TABLE
 data class UnsplashRemoteKeys(
     @PrimaryKey(autoGenerate = false)
     val id: String,
-    val prevPage: Int,
-    val nextPage: Int
+    val prevPage: Int?,
+    val nextPage: Int?
 )
